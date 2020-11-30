@@ -1,7 +1,12 @@
 body{
     margin: 0;
-}
 
+}
+header{
+    margin: 0;
+    background-color: #030301;
+    color: white;
+}
 .nav {
     text-align: center;
     background-color: #030301;
