@@ -1,5 +1,9 @@
-nav {
+.nav {
     text-align: center;
-    background-color: #256EFF;
+    background-color: #030301;
+    color: white;
 }
 
+.blue-background{
+    background-color: #00D9C0;
+}
