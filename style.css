@@ -1,5 +1,7 @@
-body{
+.dark-background{
     margin: 0;
+    background-color: #030301;
+    color: white;
 
 }
 header{
@@ -7,7 +9,7 @@ header{
     background-color: #030301;
     color: white;
 }
-.nav {
+nav {
     text-align: center;
     background-color: #030301;
     color: white;
