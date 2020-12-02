@@ -83,3 +83,10 @@ hr{
     background-color: black;
     padding: 3px;
 }
+
+ul {
+    line-height: 20px;
+    padding: 30px;
+    text-align: center;
+    display: inline-block;
+}
