@@ -1,21 +1,78 @@
 * {
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+   
   }
 
 header{
+    background-color: brown;
+    background-size: cover;
     margin: 0;
-    text-align: center;
-    font-family: Georgia;
-    color:black;
-    padding: 15px 20px;
-}
-nav {
-    text-align: center;
-    font-family: Georgia;
+    text-align: right;
+    font-size: 20px;
+    font-family: Georgia, serif;
     color: black;
+    border: 0px;
+  
+    padding: 0px;
 }
+
 main{
     text-align: center;
-    font-family: Georgia;
-    padding: 15px 20px;
+    font-family: Georgia, serif;
+    padding: 30px;
+    font-size: 15px;
+    margin: 15px;
+}
+body{
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 15px;
+    background-color: white;
+    padding: 0px;
+    margin: 0;
+}
+
+article{
+    line-height: 20px;
+    padding: 30px;
+}
+ol{
+    text-align: center;
+    padding: 20px;
+    
+}
+footer{
+    background-color: lightgray;
+    padding: 20px 15px;
+}
+
+a:link{
+    color: blue;
+}
+a:visited{
+    color:darkblue;
+}
+a:hover{
+    color:lightblue;
+}
+a:active{
+    color:red;
+}
+
+.contact{
+    padding: 30px 100px;
+    display: inline-block;
+}
+h2{
+    
+   
+}
+
+hr{
+    border: 3px;
+    margin: 10px;
+    background-color: black;
+    padding: 3px;
 }
