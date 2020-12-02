@@ -6,7 +6,7 @@
   }
 
 header{
-    background-color: brown;
+    background-color: rgb(109, 66, 31);
     background-size: cover;
     margin: 0;
     text-align: right;
@@ -44,8 +44,12 @@ ol{
     
 }
 footer{
-    background-color: lightgray;
-    padding: 20px 15px;
+    background-color: rgb(109, 66, 31);
+    height: 60px;
+    border: 0;
+    margin: 0;
+    padding: 0;
+   
 }
 
 a:link{
@@ -65,10 +69,7 @@ a:active{
     padding: 30px 100px;
     display: inline-block;
 }
-h2{
-    
-   
-}
+
 
 hr{
     border: 3px;
