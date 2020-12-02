@@ -1,12 +1,12 @@
-* {
+* { /* assign these to the entire document*/
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
    
   }
-
+/* create the header and assign it various properties*/
 header{
-    background-color: rgb(109, 66, 31);
+    background-image: url(images/dark.webp);
     background-size: cover;
     margin: 0;
     text-align: right;
@@ -15,9 +15,9 @@ header{
     color: black;
     border: 0px;
   
-    padding: 0px;
+    padding: 15px;
 }
-
+/* create the main section and assign some values to it */
 main{
     text-align: center;
     font-family: Georgia, serif;
@@ -25,6 +25,7 @@ main{
     font-size: 15px;
     margin: 15px;
 }
+/* create the main body, center the text and others*/
 body{
     text-align: center;
     font-family: Georgia, serif;
@@ -33,24 +34,28 @@ body{
     padding: 0px;
     margin: 0;
 }
-
+/* creating the article style*/
 article{
     line-height: 20px;
     padding: 30px;
 }
+/* creating the style for ordered */
 ol{
     text-align: center;
     padding: 20px;
     
 }
+/* creating the style for the footer*/
 footer{
-    background-color: rgb(109, 66, 31);
+    background-image: url(images/dark.webp);
     height: 60px;
     border: 0;
     margin: 0;
     padding: 0;
+    text-align: center;
    
 }
+/*creatung the pseudo-class for the link*/
 
 a:link{
     color: blue;
@@ -65,12 +70,13 @@ a:active{
     color:red;
 }
 
+/* creating the class for dot-contact */
 .contact{
     padding: 30px 100px;
     display: inline-block;
 }
 
-
+/* assigning details to the hr class */
 hr{
     border: 3px;
     margin: 10px;
